@@ -23,3 +23,19 @@ h1 {
     font-size: 32px;
     text-transform: uppercase;
 }
+
+/* Cascading
+
+    - Cascata
+    - Hierarquia de regras
+
+*/
+
+p {
+    color: white;
+    color: darkslateblue;
+}
+
+.black {
+    color: black;
+}
