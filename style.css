@@ -18,24 +18,44 @@ body {
     * Property value
 */
 
-h1 {
-    color:darkslateblue;
-    font-size: 32px;
-    text-transform: uppercase;
-}
-
-/* Cascading
-
+/*  Cascading
     - Cascata
     - Hierarquia de regras
+*/
+
+/*  Especificidade
+    - Cada seletor tem um peso
+    - Soma dos pesos faz a declaração ser aplicada.
+
+    #id - 100
+    .class - 10
+    element - 1
+*/
+
+/*  Mais Especifico 
+
+    - style
+    - !important
+
+    Evite!
 
 */
 
-p {
-    color: white;
-    color: darkslateblue;
+h1 {
+    color:darkslateblue;
+    font-size: 32px !important;
+    text-transform: uppercase;
+}
+
+#text {
+    color: darkseagreen;
 }
 
 .black {
     color: black;
+}
+
+p {
+    color: white;
+    color: darkslateblue;
 }
