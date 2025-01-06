@@ -42,9 +42,11 @@ body {
 */
 
 h1 {
-    color:darkslateblue;
-    font-size: 32px !important;
-    text-transform: uppercase;
+    color:darkslateblue; /* color */
+    font-size: 32px !important; /* length */
+
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform */
+    text-transform: uppercase; /* keyword */
 }
 
 #text {
