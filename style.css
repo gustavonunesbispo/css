@@ -41,27 +41,6 @@ body {
 
 */
 
-h1 {
-    color:darkslateblue; /* color */
-    font-size: 32px !important; /* length */
-
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform */
-    text-transform: uppercase; /* keyword */
-}
-
-#text {
-    color: darkseagreen;
-}
-
-.black {
-    color: black;
-}
-
-p {
-    color: white;
-    color: darkslateblue;
-}
-
 /*  Seletores
     - type | element | tag
     - id
@@ -70,22 +49,33 @@ p {
     - universal
 */
 
-span {
-    color: violet;
+/*  Combinator
+    - Descendent
+    - List
+    - Next sibling
+    - Child
+*/
+
+/* Descendent */
+
+article p {
+    color:teal;
 }
 
-#span-text {
-    color: violet;
+/* List */
+
+span, mark {
+    color: chocolate;
 }
 
-.violet {
-    color: violet;
+/* Next sibling */
+
+p + p {
+    color: slateblue;
 }
 
-[title="span"] {
-    color: violet;
-}
+/* Child */
 
-* {
-    color: violet;
+aside > ul {
+    margin-top: 60px;
 }
