@@ -61,3 +61,31 @@ p {
     color: white;
     color: darkslateblue;
 }
+
+/*  Seletores
+    - type | element | tag
+    - id
+    - class
+    - atributo
+    - universal
+*/
+
+span {
+    color: violet;
+}
+
+#span-text {
+    color: violet;
+}
+
+.violet {
+    color: violet;
+}
+
+[title="span"] {
+    color: violet;
+}
+
+* {
+    color: violet;
+}
